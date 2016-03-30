@@ -1,0 +1,6 @@
+-sname fifo_server
+
+-setcookie fifo_server_cookie
+
++K true
++A30

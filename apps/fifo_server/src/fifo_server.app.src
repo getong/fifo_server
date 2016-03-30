@@ -1,0 +1,18 @@
+{application, fifo_server,
+ [{description, "FIFO TCP server"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { fifo_server_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    lager,
+    mkh_queue
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
