@@ -12,7 +12,7 @@
 -behaviour(application).
 
 %% Application callbacks
--export([start/2, stop/1]).
+-export([start/2, stop/1, v/0]).
 
 -ifdef(TEST).
 %% EUnit tests
@@ -32,6 +32,8 @@ start(_StartType, _StartArgs) ->
 %%--------------------------------------------------------------------
 stop(_State) ->
     ok.
+
+v() -> "1.0.0".
 
 %%====================================================================
 %% Internal functions
