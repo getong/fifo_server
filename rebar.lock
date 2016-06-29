@@ -1,6 +1,6 @@
-[{<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.7">>},1},
- {<<"lager">>,{pkg,<<"lager">>,<<"3.0.2">>},0},
+[{<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.8">>},1},
+ {<<"lager">>,{pkg,<<"lager">>,<<"3.2.1">>},0},
  {<<"mkh_queue">>,
   {git,"https://github.com/mijkenator/mkh_queue.git",
-       {ref,"d8e6ce951d0b8ea314dfdc77a2fd84701b6c206c"}},
+       {ref,"5651cca217a8d64a0c82dc0805a73af4c4e83e90"}},
   0}].
